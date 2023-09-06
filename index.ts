@@ -42,7 +42,7 @@ function calculateHeaterTargets(schedules: Schedule[], timestamps: Timestamp[]):
  * @returns The converted date in the target time zone
  */
 function convertToTimeZone(date: Date, timeZone: string): Date {
-  const options: any = { timeZone, timeZoneName: "short" };
+  const options: Object = { timeZone, timeZoneName: "short" };
   const formattedDate = date.toLocaleString("en-US", options);
   return new Date(formattedDate);
 }
