@@ -73,9 +73,9 @@ for (const entry of times) {
         `${entry.scheduleId}, ${entry.timestamp}: "${schedule.name}"`
       );
       console.log(
-        `Target is: ${currentTarget}, Changing to: ${
+        `Target is: ${
           schedule.schedule.find((s) => s.target !== currentTarget)!.target
-        }`
+        }, Changing to: ${currentTarget}`
       );
       console.log(`at ${localNextChange}`);
       console.log(

@@ -6,17 +6,25 @@
     "schedule": [
       {
         "time": "07:00",
+
         "target": 20,
+
         "weekDays": [false, true, true, true, true, true, false]
       },
+
       {
         "time": "18:00",
+
         "target": 15,
+
         "weekDays": [false, true, true, true, true, false, false]
       },
+
       {
         "time": "15:00",
+
         "target": 15,
+
         "weekDays": [false, false, false, false, false, true, false]
       }
     ]
