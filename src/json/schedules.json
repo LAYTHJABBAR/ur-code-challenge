@@ -33,7 +33,7 @@
       },
       {
         "time": "17:30",
-        "target": 18,
+        "target": 12,
         "weekDays": [true, true, true, true, true, false, false]
       }
     ]
